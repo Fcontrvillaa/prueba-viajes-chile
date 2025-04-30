@@ -1,17 +1,92 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: black;
+}
+
+.contenido {
+    max-width: 20%;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*
+.navbar-brand {
+    
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 46px;
+        padding-left: 15%;
+    
+}  */
+
+.tittle {
+    text-align: center;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+.icon {
+    align-items: flex-end;
+    
+}
+
+.col svg {
+    background-color: rgb(16, 191, 245);
+    width: 100%;
+     
+}
+
+
+.col-md-6.container-fluid {
+    max-width: 30%; /* limita el ancho  de su contenedor padre */
+
+  }
+
+.texto-limitado {
+    max-width: 70%;  /* porcentaje según el margen derecho  */
+    color: #3c373c;
+    font-family: "cabin", bold;
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 46px;*/
+    padding-left: 5px; 
+    padding-top: 50px;
+    font-optical-sizing: auto;
+        
+}
+
+
+/*
 .navbar {
     z-index: 1000;
     position: fixed;
     top: 0;
     width: 100%;
-}
+}*/
 
-
+/*
 #carouselExample {
-    position: absolute;
+     position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-}
+}*/
+
+
+
