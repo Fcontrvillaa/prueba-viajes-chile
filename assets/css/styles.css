@@ -1,0 +1,79 @@
+/* Estilos personalizados para complementar Bootstrap */
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    object-fit: cover; /* Cubre el espacio sin deformar */
+    min-height: 400px; /* Ajusta según la altura deseada */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay oscuro para legibilidad del texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    text-align: center;
+    padding: 50px 0 30px;
+    font-size: 2.5rem;
+    color: #007bff; /* Un color primario */
+}
+
+.info-card {
+    background-color: #e9ecef; /* Fondo gris claro para las tarjetas */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Ajustes para la barra de navegación (opcional, ya que se usan clases de Bootstrap) */
+/* .navbar {
+    background-color: #f8f9fa !important;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #007bff !important;
+}
+.nav-link {
+    color: #333 !important;
+}
+.nav-link:hover {
+    color: #007bff !important;
+} */
