@@ -15,40 +15,28 @@
     max-width: 20%;
     
 }
-/* 
-.raleway {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
 
 
-
-
+/* titulo destacados*/
 .tittle {
     text-align: center;
     font-weight: 400;
     font-optical-sizing: auto;
 }
-.icon {
-    align-items: flex-end;
-    
-}
 
+/* padding para todas las secciones*/
 #quienes {
     padding-left: 12%;
     padding-right: 12%;
     
 }
 
-
+/*fondo de iconos en columnas de texto 
 .col svg {
     background-color: rgb(16, 191, 245);
     width: 100%;
      
-}
+} */
 
 
 .col-md-6.container-fluid {
@@ -56,23 +44,14 @@
 
   }
 
-/* .texto-limitado {
-    max-width: 70%;  porcentaje según el margen derecho  
-    color: #3c373c;
-    font-family: "cabin", bold;
-    font-weight: 700;
-    font-style: normal;
-    /* font-size: 46px;
-    padding-left: 5px; 
-    padding-top: 50px;
-    font-optical-sizing: auto;
-        
-} */
 
+/*estilo para formulario*/
 .bg-white{
     background-color: white;
     color: black;
 }
+
+/*estilo para destacados*/
 .bg-cyan{
     background-color: #00cdf2;
     color: white
@@ -83,31 +62,34 @@
     color: rgb(255, 255, 255);
     
 }
-
+/* estilo para titulos de secciones*/
 .section-title {
     color: rgb(249, 249, 247);
     font-size: 1.5rem;
     padding-top: 3rem;
     font-weight: 400;
 }
+/* estilo para parrafos en Q-somos?*/
 .section-paragraph {
     color: white;
     font-size: 0.8em;
     text-align: left;
 }
 
-.card-text {
-    font-size: 0.8em;
-    padding-bottom: 5px;
-    text-align: left;
-    font-weight: 200;
-}
+/* estilo para textos en tarjetas*/
 .card-title {
     font-size: 1em;
     font-weight: 300;
     text-align: left;
     
 }
+.card-text {
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    text-align: left;
+    font-weight: 200;
+}
+
 
 #contenido {
     padding-bottom: 30px;
