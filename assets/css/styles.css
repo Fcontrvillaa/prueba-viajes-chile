@@ -15,26 +15,17 @@
     max-width: 20%;
     
 }
-
+/* 
 .raleway {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 
-/*
-.navbar-brand {
-    
-        font-family: "Lobster", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 46px;
-        padding-left: 15%;
-    
-}  */
+
 
 .tittle {
     text-align: center;
@@ -46,13 +37,10 @@
     
 }
 
-.quienes {
-    background-color: black;
-    color: white;
-    font-weight: 100;
-    margin-top: 0px;
+#quienes {
+    padding-left: 12%;
+    padding-right: 12%;
 }
-
 
 
 .col svg {
@@ -67,18 +55,18 @@
 
   }
 
-.texto-limitado {
-    max-width: 70%;  /* porcentaje según el margen derecho  */
+/* .texto-limitado {
+    max-width: 70%;  porcentaje según el margen derecho  
     color: #3c373c;
     font-family: "cabin", bold;
     font-weight: 700;
     font-style: normal;
-    /* font-size: 46px;*/
+    /* font-size: 46px;
     padding-left: 5px; 
     padding-top: 50px;
     font-optical-sizing: auto;
         
-}
+} */
 
 .bg-white{
     background-color: white;
