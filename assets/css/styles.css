@@ -40,6 +40,7 @@
 #quienes {
     padding-left: 12%;
     padding-right: 12%;
+    
 }
 
 
@@ -76,8 +77,20 @@
     background-color: #00cdf2;
     color: white
 }
+
 .blackwhite{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
+    
 }
 
+.section-title {
+    color: rgb(249, 249, 247);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+.section-paragraph {
+    color: white;
+    font-size: 0.8em;
+}
