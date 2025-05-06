@@ -94,3 +94,11 @@
 #contenido {
     padding-bottom: 30px;
 }
+
+/* estilo para tooltip*/
+.tooltip-inner {
+    background-color: #373A3C !important;
+    
+    max-width: none !important;
+    }
+    

@@ -6,7 +6,6 @@
     <title>Viajes Chile</title>
     <link rel="shortcut icon" type="image/png" href="assets/img/viajes.svg">
     <link rel="stylesheet" href="assets/css/styles.css"> <!-- enlce css  -->
-    
     <script src="assets/js/main.js" defer></script>  <!-- enlce js  -->
      <!--link BoosTrap-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -18,6 +17,7 @@
 </head>
 <body>
     <!--navbar-->
+    <!--componente Bootstrap v5.3-->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" style="z-index: 1000;">
         <div class="container-fluid">
             <a class="navbar-brand" href="http://www.viajeschile.com">
@@ -39,6 +39,7 @@
     </nav>
     
     <!--carrusel-->
+    <!--componente Bootstrap v5.3-->
     <div id="carouselExample" class="carousel slide" style="top: 0; left: 0; width: 100%; z-index: 1;">
         <div class="carousel-inner pb-0">
             <div class="carousel-item active">
@@ -99,7 +100,8 @@
             <hr style="border: 1px solid #828586; margin: 20px 0;">
         
             <div  class="row pt-5 bg-black" >
-                 <!--card1-->
+            <!--componentes Bootstrap v5.3-->   
+                <!--card1-->
                 <div id="contenido" class="col-md-4" style="width: 17rem; ">
                     <div class="p-1">
                         <div class="card h-100">
@@ -163,6 +165,7 @@
     
     
     <!--formulario-->
+    <!--componente Bootstrap v5.3-->
     <section class="blackwhite" id="quienes" class="d-none d-md-block container-fluid text-center bg-black">
         <h1 id="contacto" class="text-center section-title">CONTACTO</h1>
         <hr style="border: 1px solid #828586; margin: 20px 0;">
@@ -179,8 +182,9 @@
                 <label for="mensaje" class="form-label">Mensaje</label>
                 <textarea class="form-control bg-white bs-light-text-emphasis" id="mensaje" rows="3"></textarea>
             </div>
-            <button type="button" class="btn text-light mb-5" style="background-color: #00cdf2;">Enviar</button>
-
+            
+            <button type="button" id="btn1" class="btn text-light mb-5" style="background-color: #00cdf2;"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Enviar Mensaje">Enviar</button>
+            
         </div>
     </section>
 
