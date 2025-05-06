@@ -94,3 +94,17 @@
     color: white;
     font-size: 0.8em;
 }
+
+.card-text {
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    text-align: left;
+    font-weight: 200;
+}
+.card-title {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+    
+}
+
