@@ -44,5 +44,3 @@ La landing page de Viajes Chile deberá contener las siguientes secciones:
     * Ubicado en la parte inferior de la página.
     * Contendrá **links a las redes sociales** de Viajes Chile (iconos de Facebook, Instagram, Twitter, etc., enlazados a sus respectivos perfiles).
     * Puede incluir información adicional como copyright, otros enlaces de interés, etc.
-
-Con esta estructura clara, podemos comenzar a construir la landing page de Viajes Chile, enfocándonos en un diseño atractivo e innovador como se solicitó. ¡Estoy listo para dar el siguiente paso desde Hualpén! ¿Tienes alguna preferencia o detalle adicional para alguna de estas secciones antes de que empecemos a "construir"?
